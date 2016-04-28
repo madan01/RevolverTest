@@ -1,0 +1,9 @@
+#RevolverTest Bundle
+revolver_test:
+  container_name: RevolverTest
+  build: .
+  ports:
+   - "8080:8080"
+  volumes:
+   - /var/log/revolver_test
+  
